@@ -62,6 +62,7 @@
 "Network.CantSendEmail" = "メールを送信できません";
 "General.Error" = "エラー";
 "Network.FailedToSendEmail" = "メールを送信できませんでした";
+"Signing.AdoptingInitials" = "イニシャルの設定中...";
 "Signing.AdoptingSignature" = "署名の設定中...";
 "Account.LinkingYourDocuSignAccount" = "DocuSignアカウントをリンク中...";
 "Signing.FailedToLinkRecipient" = "受信者をリンクできませんでした。";
@@ -202,3 +203,32 @@
 "General.Title" = "役職";
 "Tagging.TagName.Unsupported" = "サポートされません";
 "Common.Loading" = "ロード中...";
+"Common.Action.Delete" = "削除";
+
+"Offline.Envelope.SignAndSend.CAPSLOCK" = "署名と送信";
+"Offline.Envelope.SignAndSend" = "署名と送信";
+"Offline.Envelope.Documents.CAPSLOCK" = "文書";
+"Offline.Envelope.MessageOptional.CAPSLOCK" = "メッセージ（オプション）";
+"Offline.Envelope.Subject" = "件名";
+"Offline.Envelope.+Me" = "自分を追加";
+"Offline.Envelope.+" = "追加";
+"Offline.Envelope.DeleteDocument" = "文書の削除";
+"Offline.Envelope.Confirm.DeleteDocument" = "%1$@を削除してもよろしいですか?";
+"Offline.Envelope.SaveDraft" = "ドラフトの保存";
+"Offline.Envelope.DiscardDraft" = "ドラフトの破棄";
+"Offline.Envelope.CanOnlyAddYourselfOnce" = "自分を複数の役割に追加することはできません。";
+"Offline.Envelope.PlacingFieldsFor" = "%1$@のフィールドを配置";
+"Offline.Envelope.FinishedTagging" = "すべての署名者用のフィールドを追加しましたか?";
+"Offline.Envelope.AddFields" =  "フィールドの追加";
+"Offline.Envelope.DocumentExceedsXMB" = "文書の合計サイズが上限（%1$iMB）を超えています。";
+"Offline.Envelope.EditSigners" = "署名者の編集";
+"Offline.Envelope.Signers" = "署名者";
+"Offline.Envelope.SignInOrder" = "署名順を指定する";
+
+"Text.Validation.MustContainCharacters" = "入力してください";
+"Signing.ChooseASigner" = "署名者の選択";
+"Signing.Clear" = "クリア";
+"ConsumerDisclosure.ReadAbout" = "業務を電子的に行うことについて読む";
+"Signing.BeginSigning" = "署名の開始";
+"Tagging.FieldsNotPlacedForUser" = "%1$@のフィールドを配置していません。";
+"Error.CouldNotOpenPasswordProtectedDocument" = "DocuSignモバイルアプリはパスワードで保護されたPDFをサポートしません。";

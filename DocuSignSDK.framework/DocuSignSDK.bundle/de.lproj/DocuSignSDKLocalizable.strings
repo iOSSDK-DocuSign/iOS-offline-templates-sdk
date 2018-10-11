@@ -62,6 +62,7 @@
 "Network.CantSendEmail" = "E-Mail kann nicht gesendet werden";
 "General.Error" = "Fehler";
 "Network.FailedToSendEmail" = "Fehler beim Senden der E-Mail";
+"Signing.AdoptingInitials" = "Initialen werden übernommen ...";
 "Signing.AdoptingSignature" = "Signatur wird übernommen ...";
 "Account.LinkingYourDocuSignAccount" = "DocuSign-Konto wird verknüpft ...";
 "Signing.FailedToLinkRecipient" = "Fehler beim Verknüpfen des Empfängers.";
@@ -202,3 +203,32 @@
 "General.Title" = "Titel";
 "Tagging.TagName.Unsupported" = "Nicht unterstützt";
 "Common.Loading" = "Wird geladen …";
+"Common.Action.Delete" = "Löschen";
+
+"Offline.Envelope.SignAndSend.CAPSLOCK" = "SIGNIEREN + SENDEN";
+"Offline.Envelope.SignAndSend" = "Signieren + Senden";
+"Offline.Envelope.Documents.CAPSLOCK" = "DOKUMENTE";
+"Offline.Envelope.MessageOptional.CAPSLOCK" = "NACHRICHT (optional)";
+"Offline.Envelope.Subject" = "Betreff";
+"Offline.Envelope.+Me" = "+ Ich";
+"Offline.Envelope.+" = "+";
+"Offline.Envelope.DeleteDocument" = "Dokument löschen";
+"Offline.Envelope.Confirm.DeleteDocument" = "Möchten Sie %1$@ wirklich löschen?";
+"Offline.Envelope.SaveDraft" = "Entwurf speichern";
+"Offline.Envelope.DiscardDraft" = "Entwurf verwerfen";
+"Offline.Envelope.CanOnlyAddYourselfOnce" = "Sie können sich nur in einer Rolle hinzufügen.";
+"Offline.Envelope.PlacingFieldsFor" = "Felder für %1$@ positionieren";
+"Offline.Envelope.FinishedTagging" = "Haben Sie Felder für alle Unterzeichner hinzugefügt?";
+"Offline.Envelope.AddFields" =  "Felder hinzufügen";
+"Offline.Envelope.DocumentExceedsXMB" = "Die Gesamtgröße des Dokuments überschreitet das %1$i-MB-Limit.";
+"Offline.Envelope.EditSigners" = "Unterzeichner bearbeiten";
+"Offline.Envelope.Signers" = "Unterzeichner";
+"Offline.Envelope.SignInOrder" = "In Reihenfolge signieren?";
+
+"Text.Validation.MustContainCharacters" = "Muss mindestens ein Zeichen enthalten.";
+"Signing.ChooseASigner" = "Unterzeichner auswählen";
+"Signing.Clear" = "Löschen";
+"ConsumerDisclosure.ReadAbout" = "Informationen zur elektronischen Geschäftsabwicklung";
+"Signing.BeginSigning" = "Signiervorgang beginnen";
+"Tagging.FieldsNotPlacedForUser" = "Sie haben noch keine Felder für %1$@ positioniert.";
+"Error.CouldNotOpenPasswordProtectedDocument" = "DocuSign Mobile unterstützt keine passwortgeschützten PDFs.";

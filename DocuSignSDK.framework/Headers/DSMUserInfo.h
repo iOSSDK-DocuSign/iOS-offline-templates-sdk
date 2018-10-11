@@ -4,16 +4,26 @@
  */
 @interface DSMUserInfo : NSObject
 
-/*! @brief TODO:Empty. */
+/*! @brief The user name of the authenticated user */
 @property(nonatomic, copy) NSString *userName;
-/*! @brief TODO:Empty. */
+
+/*! @brief The user e-mail of the authenticated user. */
 @property(nonatomic, copy) NSString *email;
-/*! @brief TODO:Empty. */
+
+/*! @brief The user ID of the authenticated user. */
 @property(nonatomic, copy) NSString *userId;
+
 /*! @brief TODO:Empty. */
 @property(nonatomic, copy) NSString *userType;
-/*! @brief TODO:Empty. */
+
+/*! @brief Status of the user's account. One of:
+ ActivationRequired
+ ActivationSent
+ Active
+ Closed
+ Disabled */
 @property(nonatomic, copy) NSString *userStatus;
+
 /*! @brief TODO:Empty. */
 @property(nonatomic, copy) NSString *uri;
 

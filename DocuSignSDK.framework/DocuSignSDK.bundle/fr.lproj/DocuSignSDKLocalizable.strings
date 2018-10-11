@@ -62,6 +62,7 @@
 "Network.CantSendEmail" = "Impossible d’envoyer l’e‑mail";
 "General.Error" = "Erreur";
 "Network.FailedToSendEmail" = "Échec de l’envoi de l’e‑mail";
+"Signing.AdoptingInitials" = "Scelta delle iniziali...";
 "Signing.AdoptingSignature" = "Sélection de la signature…";
 "Account.LinkingYourDocuSignAccount" = "Liaison de votre compte DocuSign…";
 "Signing.FailedToLinkRecipient" = "Impossible de lier le destinataire.";
@@ -202,3 +203,32 @@
 "General.Title" = "Fonction";
 "Tagging.TagName.Unsupported" = "Non pris en charge";
 "Common.Loading" = "Chargement…";
+"Common.Action.Delete" = "Supprimer";
+
+"Offline.Envelope.SignAndSend.CAPSLOCK" = "SIGNER + ENVOYER";
+"Offline.Envelope.SignAndSend" = "Signer + Envoyer";
+"Offline.Envelope.Documents.CAPSLOCK" = "DOCUMENTS";
+"Offline.Envelope.MessageOptional.CAPSLOCK" = "MESSAGE (facultatif)";
+"Offline.Envelope.Subject" = "Objet";
+"Offline.Envelope.+Me" = "+ Moi";
+"Offline.Envelope.+" = "+";
+"Offline.Envelope.DeleteDocument" = "Supprimer le document";
+"Offline.Envelope.Confirm.DeleteDocument" = "Êtes‑vous sûr de vouloir supprimer %1$@ ?";
+"Offline.Envelope.SaveDraft" = "Enregistrer le brouillon";
+"Offline.Envelope.DiscardDraft" = "Abandonner le brouillon";
+"Offline.Envelope.CanOnlyAddYourselfOnce" = "Vous ne pouvez figurer que dans un seul rôle.";
+"Offline.Envelope.PlacingFieldsFor" = "Placement de champs pour %1$@";
+"Offline.Envelope.FinishedTagging" = "Avez‑vous fini d’ajouter des champs pour tous les signataires ?";
+"Offline.Envelope.AddFields" =  "Ajouter des champs";
+"Offline.Envelope.DocumentExceedsXMB" = "La taille totale du document dépasse la limite de %1$i Mo.";
+"Offline.Envelope.EditSigners" = "Modifier les signataires";
+"Offline.Envelope.Signers" = "Signataires";
+"Offline.Envelope.SignInOrder" = "Signer dans l’ordre ?";
+
+"Text.Validation.MustContainCharacters" = "Doit contenir au moins un caractère";
+"Signing.ChooseASigner" = "Choisir un signataire";
+"Signing.Clear" = "Effacer";
+"ConsumerDisclosure.ReadAbout" = "En savoir plus sur les transactions électroniques";
+"Signing.BeginSigning" = "Commencer à signer";
+"Tagging.FieldsNotPlacedForUser" = "Vous n’avez pas placé de champs pour %1$@.";
+"Error.CouldNotOpenPasswordProtectedDocument" = "DocuSign pour Mobile ne prend pas en charge les fichiers PDF protégés par mot de passe.";

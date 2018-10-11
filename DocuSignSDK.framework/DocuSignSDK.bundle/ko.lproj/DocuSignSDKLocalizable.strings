@@ -62,6 +62,7 @@
 "Network.CantSendEmail" = "이메일을 전송할 수 없음";
 "General.Error" = "오류";
 "Network.FailedToSendEmail" = "이메일 전송에 실패";
+"Signing.AdoptingInitials" = "이니셜 채택 중…";
 "Signing.AdoptingSignature" = "서명 채택 중…";
 "Account.LinkingYourDocuSignAccount" = "DocuSign 계정 연결 중…";
 "Signing.FailedToLinkRecipient" = "수신인에게 연결하지 못했습니다.";
@@ -202,3 +203,33 @@
 "General.Title" = "직함";
 "Tagging.TagName.Unsupported" = "지원 안 됨";
 "Common.Loading" = "로드 중…";
+"Common.Action.Delete" = "삭제";
+
+"Offline.Envelope.SignAndSend.CAPSLOCK" = "서명 및 전송";
+"Offline.Envelope.SignAndSend" = "서명 및 전송";
+"Offline.Envelope.Documents.CAPSLOCK" = "문서";
+"Offline.Envelope.MessageOptional.CAPSLOCK" = "메시지(선택 사항)";
+"Offline.Envelope.Subject" = "제목";
+"Offline.Envelope.+Me" = "+본인";
+"Offline.Envelope.+" = "+";
+"Offline.Envelope.DeleteDocument" = "문서 삭제";
+"Offline.Envelope.Confirm.DeleteDocument" = "%1$@을(를) 삭제하시겠습니까?";
+"Offline.Envelope.SaveDraft" = "초안 저장";
+"Offline.Envelope.DiscardDraft" = "초안 버리기";
+"Offline.Envelope.CanOnlyAddYourselfOnce" = "본인에게는 한 가지 역할만 추가할 수 있습니다.";
+"Offline.Envelope.PlacingFieldsFor" = "%1$@에 대한 필드 지정";
+"Offline.Envelope.FinishedTagging" = "모든 서명인에 대한 필드 추가를 완료하셨습니까?";
+"Offline.Envelope.AddFields" =  "필드 추가";
+"Offline.Envelope.DocumentExceedsXMB" = "전체 문서 크기가 %1$iMB 제한을 초과합니다.";
+"Offline.Envelope.EditSigners" = "서명인 편집";
+"Offline.Envelope.Signers" = "서명인";
+"Offline.Envelope.SignInOrder" = "순서대로 서명";
+
+"Text.Validation.MustContainCharacters" = "문자를 1자 이상 포함해야 함";
+"Signing.ChooseASigner" = "서명인 선택";
+"Signing.Clear" = "지우기";
+"ConsumerDisclosure.ReadAbout" = "전자 거래에 대해 읽어보기";
+"Signing.BeginSigning" = "서명 시작";
+"Tagging.FieldsNotPlacedForUser" = "%1$@에 대한 필드를 지정하지 않았습니다.";
+"Error.CouldNotOpenPasswordProtectedDocument" = "DocuSign 모바일은 암호로 보호되는 PDF를 지원하지 않습니다.";
+

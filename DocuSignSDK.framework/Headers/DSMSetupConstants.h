@@ -45,6 +45,13 @@ static NSString * const DSM_SETUP_OFFLINE_SIGNING_SET_MERGEFIELD_AS_NIL_FOR_TABS
 static NSString * const DSM_SETUP_OFFLINE_SIGNING_CONVERT_ZIPTABS_TO_TEXTTABS = @"dsm.setup.offline.signing.convert.ziptabs.to.texttabs";
 
 /*!
+ * @brief Allow use of document picker when selecting documents for composing offline envelopes. Enabling this requires iCloud entitlement to be enabled along with iCloud Documents if DSM_SETUP_ICLOUD_DOCUMENT_ENABLED is set as "true".
+ * Default value is "false".
+ * Acceptable value are "true" or "false".
+ */
+static NSString * const DSM_SETUP_ICLOUD_DOCUMENT_ENABLED = @"dsm.setup.icloud.document.enabled";
+
+/*!
  * @brief Allow templates with numberTabs to be downloaded for offline signing. Enabling this would autoconvert the numberTabs to the texttabs and remove any mergefield info if DSM_SETUP_OFFLINE_SIGNING_SET_MERGEFIELD_AS_NIL_FOR_TABS_CONVERSION is set as "true".
  * Default value is "false".
  * Acceptable value are "true" or "false".
@@ -64,3 +71,10 @@ static NSString * const DSM_SETUP_OFFLINE_SIGNING_CONVERT_EMAILTABS_TO_TEXTTABS 
  * Acceptable value are "true" or "false".
  */
 static NSString * const DSM_SETUP_OFFLINE_SIGNING_CONVERT_DATETABS_TO_TEXTTABS = @"dsm.setup.offline.signing.convert.datetabs.to.texttabs";
+
+/*!
+ * @brief Allows display of Powered By DocuSign footer. Enabling this would display the footer for Online and Offline signing if DSM_SETUP_POWERED_BY_DOCUSIGN_ENABLED is set as "true".
+ * Default value is "true".
+ * Acceptable value are "true" or "false".
+ */
+static NSString * const DSM_SETUP_POWERED_BY_DOCUSIGN_ENABLED = @"dsm.setup.powered.by.docusign.enabled";

@@ -62,6 +62,7 @@
 "Network.CantSendEmail" = "Can't send email";
 "General.Error" = "Error";
 "Network.FailedToSendEmail" = "Failed to send email";
+"Signing.AdoptingInitials" = "Adopting Initials…";
 "Signing.AdoptingSignature" = "Adopting Signature…";
 "Account.LinkingYourDocuSignAccount" = "Linking your DocuSign Account…";
 "Signing.FailedToLinkRecipient" = "Failed to link recipient.";
@@ -202,3 +203,32 @@
 "General.Title" = "Title";
 "Tagging.TagName.Unsupported" = "Unsupported";
 "Common.Loading" = "Loading…";
+"Common.Action.Delete" = "Delete";
+
+"Offline.Envelope.SignAndSend.CAPSLOCK" = "SIGN & SEND";
+"Offline.Envelope.SignAndSend" = "Sign & Send";
+"Offline.Envelope.Documents.CAPSLOCK" = "DOCUMENTS";
+"Offline.Envelope.MessageOptional.CAPSLOCK" = "MESSAGE (optional)";
+"Offline.Envelope.Subject" = "Subject";
+"Offline.Envelope.+Me" = "+ Me";
+"Offline.Envelope.+" = "+";
+"Offline.Envelope.DeleteDocument" = "Delete Document";
+"Offline.Envelope.Confirm.DeleteDocument" = "Are you sure you want to delete %1$@?";
+"Offline.Envelope.SaveDraft" = "Save Draft";
+"Offline.Envelope.DiscardDraft" = "Discard Draft";
+"Offline.Envelope.CanOnlyAddYourselfOnce" = "You can only add yourself in one role.";
+"Offline.Envelope.PlacingFieldsFor" = "Placing fields for %@";
+"Offline.Envelope.FinishedTagging" = "Have you finished adding fields for all signers?";
+"Offline.Envelope.AddFields" =  "Add Fields";
+"Offline.Envelope.DocumentExceedsXMB" = "Total document size exceeds %iMB limit.";
+"Offline.Envelope.EditSigners" = "Edit Signers";
+"Offline.Envelope.Signers" = "Signers";
+"Offline.Envelope.SignInOrder" = "Sign in order?";
+
+"Text.Validation.MustContainCharacters" = "Must contain at least one character";
+"Signing.ChooseASigner" = "Choose A Signer";
+"Signing.Clear" = "Clear";
+"ConsumerDisclosure.ReadAbout" = "Read about doing business electronically";
+"Signing.BeginSigning" = "Begin Signing";
+"Tagging.FieldsNotPlacedForUser" = "You have not placed any fields for %@.";
+"Error.CouldNotOpenPasswordProtectedDocument" = "DocuSign Mobile does not support password protected PDFs.";

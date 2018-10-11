@@ -18,3 +18,7 @@ static NSString * const DSM_TEMPLATE_SIGN_ERROR = @"template.sign.error";
 static NSString * const DSM_TEMPLATE_ENVELOPE_DEFAULTS_ERROR = @"template.envelope.defaults.error";
 
 
+#pragma mark - Document Creation error Constants
+static NSString * const DSM_DOCUMENT_INVALID_TYPE_ERROR = @"document.invalid.type.error";
+static NSString * const DSM_DOCUMENT_EXCEEDS_LIMIT_ERROR = @"document.exceeds.limit.error";
+static NSString * const DSM_DOCUMENT_GENERIC_ERROR = @"document.generic.error";

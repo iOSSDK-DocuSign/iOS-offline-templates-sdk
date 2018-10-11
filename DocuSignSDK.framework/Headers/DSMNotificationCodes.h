@@ -24,6 +24,13 @@ extern NSString * const DSMSigningCompletedNotification;
 extern NSString * const DSMSigningCancelledNotification;
 
 /*!
+ * @brief Notification sent when composing online envelope fails.
+ * @discussion Returned userInfo has envelopeId associated with DSMEnvelopeIdKey. This can be posted on a thread other than MainThread.
+ * @code
+ [[NSNotificationCenter defaultCenter] postNotificationName:DSMEnvelopeOnlineSendFailedNotification object:nil userInfo:userInfo];
+ */
+extern NSString * const DSMEnvelopeOnlineSendFailedNotification;
+/*!
  * @brief Notification sent when caching is enabled for a given record (envelope).
  * @discussion Returned userInfo has envelopeId associated with DSMEnvelopeIdKey key. This can be posted on a thread other than MainThread.
  * @code

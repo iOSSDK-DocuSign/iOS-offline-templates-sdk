@@ -187,5 +187,5 @@ typedef NS_ENUM(NSUInteger, DSMRecipientType);
  * @return NSString
  */
 -(NSString *)dsm_name;
-
+-(NSString *)dsm_email;
 @end

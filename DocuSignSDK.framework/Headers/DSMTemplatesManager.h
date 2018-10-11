@@ -121,7 +121,7 @@ typedef NS_ENUM(NSUInteger, DSMSearchOptions) {
  */
 - (BOOL)canCacheEnvelopeTemplate:(DSMEnvelopeTemplate *)envelopeTemplate error:(NSError *__autoreleasing*)error;
 /*!
- * @discussion Start Signing/Sending envelope off of a template with given templateId.
+ * @discussion Start Signing/Sending envelope off of a template with given templateId. It presents the required modal which can be dismissed if desired with the view-controller returned with completion block.
  * @param signingMode is DSMSigningModeOnline, if sign and send needs to happen online(using online web signing component) OR it will be DSMSigningModeOffline if signing in Offline (using native signing components).
  * @param presentingController signing component/controller will be presented on top of the given presentingController passed.
  * @param animated If the presentation of sign and send be animated or not.
@@ -135,7 +135,7 @@ typedef NS_ENUM(NSUInteger, DSMSearchOptions) {
                                                animated:(BOOL)animated
                                              completion:(void(^)(UIViewController *viewController, NSError *error))completion;
 /*!
- * @discussion Start Signing/Sending envelope off of a template with the given templateId.
+ * @discussion Start Signing/Sending envelope off of a template with the given templateId. It presents the required modal which can be dismissed if desired with the view-controller returned with completion block.
  * @param envelopeDefaults [Optional] Customizable envelope data before starting the signing ceremony @see DSMEnvelopeDefaults.h
  * @param pdfToInsert [Optional] Offline signing only, include a PDF to be inserted at begining or end of envelope documents. if signingMode is DSMSigningModeOnline, pdfToInsert would be silently ignored.
  * @param insertAtPosition specigies if the pdf needs to eb inserted at the beginging or end of Envelope.

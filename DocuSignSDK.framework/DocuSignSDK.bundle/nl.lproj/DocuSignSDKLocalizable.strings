@@ -62,6 +62,7 @@
 "Network.CantSendEmail" = "Kan e-mail niet verzenden";
 "General.Error" = "Fout";
 "Network.FailedToSendEmail" = "E-mail verzenden mislukt";
+"Signing.AdoptingInitials" = "Paraaf gebruiken…";
 "Signing.AdoptingSignature" = "Handtekening vastleggen…";
 "Account.LinkingYourDocuSignAccount" = "Uw DocuSign-account koppelen…";
 "Signing.FailedToLinkRecipient" = "Koppeling met ontvanger mislukt.";
@@ -202,3 +203,32 @@
 "General.Title" = "Titel";
 "Tagging.TagName.Unsupported" = "Niet ondersteund";
 "Common.Loading" = "Laden…";
+"Common.Action.Delete" = "Verwijderen";
+
+"Offline.Envelope.SignAndSend.CAPSLOCK" = "ONDERTEKENEN EN VERZENDEN";
+"Offline.Envelope.SignAndSend" = "Ondertekenen En Verzenden";
+"Offline.Envelope.Documents.CAPSLOCK" = "DOCUMENTEN";
+"Offline.Envelope.MessageOptional.CAPSLOCK" = "Bericht (optioneel)";
+"Offline.Envelope.Subject" = "Onderwerp";
+"Offline.Envelope.+Me" = "+ ik";
+"Offline.Envelope.+" = "+";
+"Offline.Envelope.DeleteDocument" = "Document verwijderen";
+"Offline.Envelope.Confirm.DeleteDocument" = "Weet u zeker dat u %1$@ wilt verwijderen?";
+"Offline.Envelope.SaveDraft" = "Concept opslaan";
+"Offline.Envelope.DiscardDraft" = "Concept verwijderen";
+"Offline.Envelope.CanOnlyAddYourselfOnce" = "U kunt uzelf slechts in één rol toevoegen.";
+"Offline.Envelope.PlacingFieldsFor" = "Velden plaatsen voor %1$@";
+"Offline.Envelope.FinishedTagging" = "Bent u klaar met het toevoegen van velden voor alle ondertekenaars?";
+"Offline.Envelope.AddFields" =  "Voeg velden toe";
+"Offline.Envelope.DocumentExceedsXMB" = "De totale documentgrootte is meer dan de limiet van %1$i MB.";
+"Offline.Envelope.EditSigners" = "Ondertekenaars bewerken";
+"Offline.Envelope.Signers" = "Ondertekenaars";
+"Offline.Envelope.SignInOrder" = "Op volgorde ondertekenen?";
+
+"Text.Validation.MustContainCharacters" = "Moet minimaal één teken bevatten";
+"Signing.ChooseASigner" = "Een ondertekenaar kiezen";
+"Signing.Clear" = "Wissen";
+"ConsumerDisclosure.ReadAbout" = "Lees meer over elektronisch zaken doen";
+"Signing.BeginSigning" = "Beginnen met ondertekenen";
+"Tagging.FieldsNotPlacedForUser" = "U hebt geen velden geplaatst voor %1$@.";
+"Error.CouldNotOpenPasswordProtectedDocument" = "DocuSign Mobile ondersteunt geen met wachtwoord beveiligde PDF-bestanden.";

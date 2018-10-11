@@ -62,6 +62,7 @@
 "Network.CantSendEmail" = "Не удалось отправить сообщение электронной почты";
 "General.Error" = "Ошибка";
 "Network.FailedToSendEmail" = "Не удалось отправить сообщение электронной почты";
+"Signing.AdoptingInitials" = "Принятие инициалов…";
 "Signing.AdoptingSignature" = "Принятие подписи…";
 "Account.LinkingYourDocuSignAccount" = "Связывание вашей учетной записи DocuSign…";
 "Signing.FailedToLinkRecipient" = "Сбой при попытке соединить получателя.";
@@ -202,3 +203,33 @@
 "General.Title" = "Название";
 "Tagging.TagName.Unsupported" = "Не поддерживается";
 "Common.Loading" = "Загрузка…";
+"Common.Action.Delete" = "Удалить";
+
+"Offline.Envelope.SignAndSend.CAPSLOCK" = "ПОДПИСАТЬ И ОТПРАВИТЬ";
+"Offline.Envelope.SignAndSend" = "Подписать и отправить";
+"Offline.Envelope.Documents.CAPSLOCK" = "ДОКУМЕНТЫ";
+"Offline.Envelope.MessageOptional.CAPSLOCK" = "Сообщение (необязательно)";
+"Offline.Envelope.Subject" = "Тема";
+"Offline.Envelope.+Me" = "Добавить меня";
+"Offline.Envelope.+" = "+";
+"Offline.Envelope.DeleteDocument" = "Удалить документ";
+"Offline.Envelope.Confirm.DeleteDocument" = "Удалить %1$@?";
+"Offline.Envelope.SaveDraft" = "Сохранить черновик";
+"Offline.Envelope.DiscardDraft" = "Удалить черновик";
+"Offline.Envelope.CanOnlyAddYourselfOnce" = "Вы можете назначить себе только одну роль.";
+"Offline.Envelope.PlacingFieldsFor" = "Размещение полей для %1$@";
+"Offline.Envelope.FinishedTagging" = "Вы закончили добавлять поля для всех подписывающих?";
+"Offline.Envelope.AddFields" =  "Добавить поля";
+"Offline.Envelope.DocumentExceedsXMB" = "Общий размер документа превышает ограничение в %1$i МБ.";
+"Offline.Envelope.EditSigners" = "Изменить подписантов";
+"Offline.Envelope.Signers" = "подписантов";
+"Offline.Envelope.SignInOrder" = "Подписать по порядку?";
+
+"Text.Validation.MustContainCharacters" = "Должен содержать по меньшей мере один символ";
+"Signing.ChooseASigner" = "Выбрать подписанта";
+"Signing.Clear" = "Очистить";
+"ConsumerDisclosure.ReadAbout" = "Прочитать о ведении бизнеса в электронной форме";
+"Signing.BeginSigning" = "Начать подписывание";
+"Tagging.FieldsNotPlacedForUser" = "Вы не разместили полей для %1$@.";
+"Error.CouldNotOpenPasswordProtectedDocument" = "DocuSign Mobile не поддерживает файлы PDF, защищенные паролем.";
+

@@ -62,6 +62,7 @@
 "Network.CantSendEmail" = "No se puede enviar el mensaje de correo electrónico";
 "General.Error" = "Error";
 "Network.FailedToSendEmail" = "Error al enviar el mensaje de correo electrónico";
+"Signing.AdoptingInitials" = "Adoptando iniciales…";
 "Signing.AdoptingSignature" = "Adoptando firma…";
 "Account.LinkingYourDocuSignAccount" = "Vinculando su cuenta de DocuSign…";
 "Signing.FailedToLinkRecipient" = "Se ha producido un error al enlazar destinatarios.";
@@ -202,3 +203,32 @@
 "General.Title" = "Cargo";
 "Tagging.TagName.Unsupported" = "No compatible";
 "Common.Loading" = "Cargando…";
+"Common.Action.Delete" = "Eliminar";
+
+"Offline.Envelope.SignAndSend.CAPSLOCK" = "FIRMAR Y ENVIAR";
+"Offline.Envelope.SignAndSend" = "Firmar Y Enviar";
+"Offline.Envelope.Documents.CAPSLOCK" = "DOCUMENTOS";
+"Offline.Envelope.MessageOptional.CAPSLOCK" = "Mensaje (opcional)";
+"Offline.Envelope.Subject" = "Asunto";
+"Offline.Envelope.+Me" = "+ Yo";
+"Offline.Envelope.+" = "+";
+"Offline.Envelope.DeleteDocument" = "Eliminar documento";
+"Offline.Envelope.Confirm.DeleteDocument" = "¿Está seguro de que desea eliminar %1$@?";
+"Offline.Envelope.SaveDraft" = "Guardar borrador";
+"Offline.Envelope.DiscardDraft" = "Descartar borrador";
+"Offline.Envelope.CanOnlyAddYourselfOnce" = "Solo puede agregarse a una función.";
+"Offline.Envelope.PlacingFieldsFor" = "Colocación de campos para %1$@";
+"Offline.Envelope.FinishedTagging" = "¿Ha terminado de agregar campos para todos los signatarios?";
+"Offline.Envelope.AddFields" =  "Agregar campos";
+"Offline.Envelope.DocumentExceedsXMB" = "El tamaño del documento total supera el límite de %1$i MB.";
+"Offline.Envelope.EditSigners" = "Editar signatarios";
+"Offline.Envelope.Signers" = "Signatarios";
+"Offline.Envelope.SignInOrder" = "¿Orden de inicio de sesión?";
+
+"Text.Validation.MustContainCharacters" = "Debe contener al menos un carácter";
+"Signing.ChooseASigner" = "Elegir un signatario";
+"Signing.Clear" = "Borrar";
+"ConsumerDisclosure.ReadAbout" = "Lea acerca de la realización de negocios de forma electrónica";
+"Signing.BeginSigning" = "Comenzar a firmar";
+"Tagging.FieldsNotPlacedForUser" = "No ha colocado ningún campo para %1$@.";
+"Error.CouldNotOpenPasswordProtectedDocument" = "Los PDF protegidos con contraseña no son compatibles con DocuSign para dispositivos móviles.";

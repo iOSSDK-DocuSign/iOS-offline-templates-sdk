@@ -62,6 +62,7 @@
 "Network.CantSendEmail" = "无法发送电子邮件";
 "General.Error" = "錯誤";
 "Network.FailedToSendEmail" = "发送电子邮件失败";
+"Signing.AdoptingInitials" = "正在采用首字母...";
 "Signing.AdoptingSignature" = "正在采用签名…";
 "Account.LinkingYourDocuSignAccount" = "正在链接您的 DocuSign 帐户…";
 "Signing.FailedToLinkRecipient" = "连接收件人失败。";
@@ -202,3 +203,32 @@
 "General.Title" = "职位";
 "Tagging.TagName.Unsupported" = "不支持";
 "Common.Loading" = "正在加载…";
+"Common.Action.Delete" = "删除";
+
+"Offline.Envelope.SignAndSend.CAPSLOCK" = "签名并发送";
+"Offline.Envelope.SignAndSend" = "签名并发送";
+"Offline.Envelope.Documents.CAPSLOCK" = "文档";
+"Offline.Envelope.MessageOptional.CAPSLOCK" = "消息（可选）";
+"Offline.Envelope.Subject" = "主题";
+"Offline.Envelope.+Me" = "添加我";
+"Offline.Envelope.+" = "+";
+"Offline.Envelope.DeleteDocument" = "删除文档";
+"Offline.Envelope.Confirm.DeleteDocument" = "是否确定要删除 %1$@？";
+"Offline.Envelope.SaveDraft" = "保存草稿";
+"Offline.Envelope.DiscardDraft" = "放弃草稿";
+"Offline.Envelope.CanOnlyAddYourselfOnce" = "您仅可以一个角色自己添加。";
+"Offline.Envelope.PlacingFieldsFor" = "为 %1$@ 放置字段";
+"Offline.Envelope.FinishedTagging" = "您是否已经给所有签名人添加了字段？";
+"Offline.Envelope.AddFields" =  "添加字段";
+"Offline.Envelope.DocumentExceedsXMB" = "总文档大小超过 %1$iMB 限制。";
+"Offline.Envelope.EditSigners" = "编辑签名者";
+"Offline.Envelope.Signers" = "签名者";
+"Offline.Envelope.SignInOrder" = "按顺序签名？";
+"Text.Validation.MustContainCharacters" = "必须至少包含一个字符";
+"Signing.ChooseASigner" = "选择签名者";
+"Signing.Clear" = "清除";
+"ConsumerDisclosure.ReadAbout" = "阅读有关开展电子业务的内容";
+"Signing.BeginSigning" = "开始签名";
+"Tagging.FieldsNotPlacedForUser" = "您未针 %1$@ 放置任何字段。";
+"Error.CouldNotOpenPasswordProtectedDocument" = "DocuSign Mobile 不支持受密码保护的 PDF。";
+

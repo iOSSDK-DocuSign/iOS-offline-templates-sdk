@@ -18,6 +18,7 @@ FOUNDATION_EXPORT const unsigned char DocuSignSDKVersionString[];
 #import <DocuSignSDK/DSMCertifiedDelivery.h>
 #import <DocuSignSDK/DSMCheckbox.h>
 #import <DocuSignSDK/DSMCompany.h>
+#import <DocuSignSDK/DSMConstants.h>
 #import <DocuSignSDK/DSMCustomFields.h>
 #import <DocuSignSDK/DSMDateSigned.h>
 #import <DocuSignSDK/DSMDocument.h>
@@ -30,6 +31,7 @@ FOUNDATION_EXPORT const unsigned char DocuSignSDKVersionString[];
 #import <DocuSignSDK/DSMErrorDetails.h>
 #import <DocuSignSDK/DSMExpirations.h>
 #import <DocuSignSDK/DSMFolder.h>
+#import <DocuSignSDK/DSMFormula.h>
 #import <DocuSignSDK/DSMFullName.h>
 #import <DocuSignSDK/DSMImageTabProtocol.h>
 #import <DocuSignSDK/DSMInitialHere.h>

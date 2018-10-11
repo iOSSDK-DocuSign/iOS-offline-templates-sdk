@@ -1,6 +1,7 @@
 //  DSMEnvelopesManager.h
 //  DocuSignSDK
 #import <Foundation/Foundation.h>
+#import "DSMSigningMode.h"
 
 @class DSMRecipient;
 @class DSMEnvelopeDefinition;
@@ -95,4 +96,26 @@
  */
 - (void)removeCachedEnvelopes;
 
+/*!
+ * @discussion Start creating an envelope to manually add documents, recipients and tags. Client app is responsible for detecting network to present view controller.
+ * @param presentingController controller will be presented on top of the given presentingController passed.
+ * @param signingMode compose envelope in either online or offline mode, see DSMSigningMode
+ * @param resumeWithDraft determines whether to initialize flow with a previously saved draft (if any)
+ * @param animated if the presentation of sign and send be animated or not.
+ * @param completion completion block to be executed after compose envelope controller is presented
+ * @warning passing nil to a presentationController will not be able to load the offline envelope flow.
+ * @discussion Relevant Notifications that can be used to track the progress of an envelope sync task: DSMEnvelopeOnlineSendFailedNotification.
+ * @see DSMNotificationCodes
+ */
+- (void)presentComposeEnvelopeControllerWithPresentingController:(UIViewController *)presentingController
+                                                     signingMode:(DSMSigningMode)signingMode
+                                                 resumeWithDraft:(BOOL)resumeWithDraft
+                                                        animated:(BOOL)animated
+                                                      completion:(void(^)(UIViewController *viewController))completion;
+
+/*!
+ * @discussion Returns whether there is a current cached envelope in draft status. Once an envelope is successfully synced, it's deleted from the cache on the device. This can be used to determine whether presenting compose envelope flow should be resumed with the draft envelope. There can only be one draft cached envelope at a given time.
+ * @return BOOL, true if there is a cached draft envelope
+ */
+- (BOOL)hasCachedDraftEnvelope;
 @end
