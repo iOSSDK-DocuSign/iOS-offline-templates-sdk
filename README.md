@@ -6,10 +6,10 @@ For detailed instructions, please refer to the [official site](https://developer
 
 Requirements
 ============
-- The SDK is written in Objective-C, but will work with projects in Objective-C or Swift (2.x or 3.x).
+- The SDK is written in Objective-C, but will work with projects in Objective-C or Swift (3.x or 4.x).
 - The framework uses Apple's Core Data for data persistence.
 - Requires iOS 9.0 or later.
-- It is recommended developers use Xcode 8.x or later.
+- It is recommended developers use Xcode 9.x or later.
 
 Install
 =============
